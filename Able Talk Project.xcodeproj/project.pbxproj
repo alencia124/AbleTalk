@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7CE1A0F23045E600023ED7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A0E23045E600023ED7B /* AppDelegate.swift */; };
+		C7CE1A1423045E600023ED7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1A1223045E600023ED7B /* Main.storyboard */; };
+		C7CE1A1723045E600023ED7B /* Able_Talk_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A1523045E600023ED7B /* Able_Talk_Project.xcdatamodeld */; };
+		C7CE1A1923045E620023ED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1A1823045E620023ED7B /* Assets.xcassets */; };
+		C7CE1A1C23045E620023ED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CE1A1A23045E620023ED7B /* LaunchScreen.storyboard */; };
+		C7CE1A2723045E620023ED7B /* Able_Talk_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A2623045E620023ED7B /* Able_Talk_ProjectTests.swift */; };
+		C7CE1A3223045E620023ED7B /* Able_Talk_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A3123045E620023ED7B /* Able_Talk_ProjectUITests.swift */; };
+		C7CE1A4023045FB50023ED7B /* AbleTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A3F23045FB50023ED7B /* AbleTalkViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7CE1A2323045E620023ED7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CE1A0323045E600023ED7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CE1A0A23045E600023ED7B;
+			remoteInfo = "Able Talk Project";
+		};
+		C7CE1A2E23045E620023ED7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CE1A0323045E600023ED7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CE1A0A23045E600023ED7B;
+			remoteInfo = "Able Talk Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7CE1A0B23045E600023ED7B /* Able Talk Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Able Talk Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE1A0E23045E600023ED7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7CE1A1323045E600023ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7CE1A1623045E600023ED7B /* Able_Talk_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Able_Talk_Project.xcdatamodel; sourceTree = "<group>"; };
+		C7CE1A1823045E620023ED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CE1A1B23045E620023ED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7CE1A1D23045E620023ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CE1A2223045E620023ED7B /* Able Talk ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Able Talk ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE1A2623045E620023ED7B /* Able_Talk_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Able_Talk_ProjectTests.swift; sourceTree = "<group>"; };
+		C7CE1A2823045E620023ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CE1A2D23045E620023ED7B /* Able Talk ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Able Talk ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE1A3123045E620023ED7B /* Able_Talk_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Able_Talk_ProjectUITests.swift; sourceTree = "<group>"; };
+		C7CE1A3323045E620023ED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CE1A3F23045FB50023ED7B /* AbleTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbleTalkViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CE1A0823045E600023ED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A1F23045E620023ED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A2A23045E620023ED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CE1A0223045E600023ED7B = {
+			isa = PBXGroup;
+			children = (
+				C7CE1A0D23045E600023ED7B /* Able Talk Project */,
+				C7CE1A2523045E620023ED7B /* Able Talk ProjectTests */,
+				C7CE1A3023045E620023ED7B /* Able Talk ProjectUITests */,
+				C7CE1A0C23045E600023ED7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CE1A0C23045E600023ED7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1A0B23045E600023ED7B /* Able Talk Project.app */,
+				C7CE1A2223045E620023ED7B /* Able Talk ProjectTests.xctest */,
+				C7CE1A2D23045E620023ED7B /* Able Talk ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CE1A0D23045E600023ED7B /* Able Talk Project */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1A0E23045E600023ED7B /* AppDelegate.swift */,
+				C7CE1A1223045E600023ED7B /* Main.storyboard */,
+				C7CE1A3F23045FB50023ED7B /* AbleTalkViewController.swift */,
+				C7CE1A1823045E620023ED7B /* Assets.xcassets */,
+				C7CE1A1A23045E620023ED7B /* LaunchScreen.storyboard */,
+				C7CE1A1D23045E620023ED7B /* Info.plist */,
+				C7CE1A1523045E600023ED7B /* Able_Talk_Project.xcdatamodeld */,
+			);
+			path = "Able Talk Project";
+			sourceTree = "<group>";
+		};
+		C7CE1A2523045E620023ED7B /* Able Talk ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1A2623045E620023ED7B /* Able_Talk_ProjectTests.swift */,
+				C7CE1A2823045E620023ED7B /* Info.plist */,
+			);
+			path = "Able Talk ProjectTests";
+			sourceTree = "<group>";
+		};
+		C7CE1A3023045E620023ED7B /* Able Talk ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE1A3123045E620023ED7B /* Able_Talk_ProjectUITests.swift */,
+				C7CE1A3323045E620023ED7B /* Info.plist */,
+			);
+			path = "Able Talk ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CE1A0A23045E600023ED7B /* Able Talk Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CE1A3623045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk Project" */;
+			buildPhases = (
+				C7CE1A0723045E600023ED7B /* Sources */,
+				C7CE1A0823045E600023ED7B /* Frameworks */,
+				C7CE1A0923045E600023ED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Able Talk Project";
+			productName = "Able Talk Project";
+			productReference = C7CE1A0B23045E600023ED7B /* Able Talk Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7CE1A2123045E620023ED7B /* Able Talk ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CE1A3923045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk ProjectTests" */;
+			buildPhases = (
+				C7CE1A1E23045E620023ED7B /* Sources */,
+				C7CE1A1F23045E620023ED7B /* Frameworks */,
+				C7CE1A2023045E620023ED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CE1A2423045E620023ED7B /* PBXTargetDependency */,
+			);
+			name = "Able Talk ProjectTests";
+			productName = "Able Talk ProjectTests";
+			productReference = C7CE1A2223045E620023ED7B /* Able Talk ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7CE1A2C23045E620023ED7B /* Able Talk ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CE1A3C23045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk ProjectUITests" */;
+			buildPhases = (
+				C7CE1A2923045E620023ED7B /* Sources */,
+				C7CE1A2A23045E620023ED7B /* Frameworks */,
+				C7CE1A2B23045E620023ED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CE1A2F23045E620023ED7B /* PBXTargetDependency */,
+			);
+			name = "Able Talk ProjectUITests";
+			productName = "Able Talk ProjectUITests";
+			productReference = C7CE1A2D23045E620023ED7B /* Able Talk ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CE1A0323045E600023ED7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Alencia;
+				TargetAttributes = {
+					C7CE1A0A23045E600023ED7B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C7CE1A2123045E620023ED7B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C7CE1A0A23045E600023ED7B;
+					};
+					C7CE1A2C23045E620023ED7B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C7CE1A0A23045E600023ED7B;
+					};
+				};
+			};
+			buildConfigurationList = C7CE1A0623045E600023ED7B /* Build configuration list for PBXProject "Able Talk Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CE1A0223045E600023ED7B;
+			productRefGroup = C7CE1A0C23045E600023ED7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CE1A0A23045E600023ED7B /* Able Talk Project */,
+				C7CE1A2123045E620023ED7B /* Able Talk ProjectTests */,
+				C7CE1A2C23045E620023ED7B /* Able Talk ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CE1A0923045E600023ED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE1A1C23045E620023ED7B /* LaunchScreen.storyboard in Resources */,
+				C7CE1A1923045E620023ED7B /* Assets.xcassets in Resources */,
+				C7CE1A1423045E600023ED7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A2023045E620023ED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A2B23045E620023ED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CE1A0723045E600023ED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE1A1723045E600023ED7B /* Able_Talk_Project.xcdatamodeld in Sources */,
+				C7CE1A0F23045E600023ED7B /* AppDelegate.swift in Sources */,
+				C7CE1A4023045FB50023ED7B /* AbleTalkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A1E23045E620023ED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE1A2723045E620023ED7B /* Able_Talk_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE1A2923045E620023ED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE1A3223045E620023ED7B /* Able_Talk_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7CE1A2423045E620023ED7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CE1A0A23045E600023ED7B /* Able Talk Project */;
+			targetProxy = C7CE1A2323045E620023ED7B /* PBXContainerItemProxy */;
+		};
+		C7CE1A2F23045E620023ED7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CE1A0A23045E600023ED7B /* Able Talk Project */;
+			targetProxy = C7CE1A2E23045E620023ED7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7CE1A1223045E600023ED7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CE1A1323045E600023ED7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7CE1A1A23045E620023ED7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CE1A1B23045E620023ED7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7CE1A3423045E620023ED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7CE1A3523045E620023ED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CE1A3723045E620023ED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CE1A3823045E620023ED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7CE1A3A23045E620023ED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Able Talk Project.app/Able Talk Project";
+			};
+			name = Debug;
+		};
+		C7CE1A3B23045E620023ED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Able Talk Project.app/Able Talk Project";
+			};
+			name = Release;
+		};
+		C7CE1A3D23045E620023ED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Able Talk Project";
+			};
+			name = Debug;
+		};
+		C7CE1A3E23045E620023ED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Able Talk ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Able-Talk-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Able Talk Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CE1A0623045E600023ED7B /* Build configuration list for PBXProject "Able Talk Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CE1A3423045E620023ED7B /* Debug */,
+				C7CE1A3523045E620023ED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CE1A3623045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CE1A3723045E620023ED7B /* Debug */,
+				C7CE1A3823045E620023ED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CE1A3923045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CE1A3A23045E620023ED7B /* Debug */,
+				C7CE1A3B23045E620023ED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CE1A3C23045E620023ED7B /* Build configuration list for PBXNativeTarget "Able Talk ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CE1A3D23045E620023ED7B /* Debug */,
+				C7CE1A3E23045E620023ED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7CE1A1523045E600023ED7B /* Able_Talk_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7CE1A1623045E600023ED7B /* Able_Talk_Project.xcdatamodel */,
+			);
+			currentVersion = C7CE1A1623045E600023ED7B /* Able_Talk_Project.xcdatamodel */;
+			path = Able_Talk_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7CE1A0323045E600023ED7B /* Project object */;
+}
