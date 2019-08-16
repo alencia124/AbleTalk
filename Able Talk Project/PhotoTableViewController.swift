@@ -9,16 +9,7 @@ class PhotoTableViewController: UITableViewController {
     
     var photos : [Photos] = []
     
-    func getPhotos() {
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-            // now we need to search through Core Data to find our photos/captions
-            
-    if let coreDataPhotos = try? context.fetch(Photos.fetchRequest()) as? [Photos] {
-                photos = coreDataPhotos
-                tableView.reloadData()
-            }
-        }
-    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
@@ -29,6 +20,20 @@ class PhotoTableViewController: UITableViewController {
   
     override func viewWillAppear(_ animated: Bool) {
         getPhotos()
+    }
+    
+    func getPhotos() {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            // now we need to search through Core Data to find our photos/captions
+            
+            if let coreDataPhotos = try? context.fetch(Photos.fetchRequest()) as? [Photos] {
+                photos = coreDataPhotos
+                tableView.reloadData()
+                
+                
+                
+            }
+        }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

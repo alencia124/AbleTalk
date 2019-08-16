@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7C89B872305C64200FF8283 /* AbleTalkTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C89B862305C64200FF8283 /* AbleTalkTableTableViewController.swift */; };
+		C7C89B872305C64200FF8283 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C89B862305C64200FF8283 /* PhotoTableViewController.swift */; };
 		C7C89B892305DF2800FF8283 /* AbleTalkPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C89B882305DF2800FF8283 /* AbleTalkPhotoViewController.swift */; };
 		C7C89B8B2305E20A00FF8283 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C89B8A2305E20A00FF8283 /* PhotoDetailViewController.swift */; };
 		C7CE1A0F23045E600023ED7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE1A0E23045E600023ED7B /* AppDelegate.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7C89B862305C64200FF8283 /* AbleTalkTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbleTalkTableTableViewController.swift; sourceTree = "<group>"; };
+		C7C89B862305C64200FF8283 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		C7C89B882305DF2800FF8283 /* AbleTalkPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbleTalkPhotoViewController.swift; sourceTree = "<group>"; };
 		C7C89B8A2305E20A00FF8283 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		C7CE1A0B23045E600023ED7B /* Able Talk Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Able Talk Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +109,7 @@
 				C7CE1A0E23045E600023ED7B /* AppDelegate.swift */,
 				C7CE1A1223045E600023ED7B /* Main.storyboard */,
 				C7C89B882305DF2800FF8283 /* AbleTalkPhotoViewController.swift */,
-				C7C89B862305C64200FF8283 /* AbleTalkTableTableViewController.swift */,
+				C7C89B862305C64200FF8283 /* PhotoTableViewController.swift */,
 				C7CE1A3F23045FB50023ED7B /* AbleTalkViewController.swift */,
 				C7CE1A1823045E620023ED7B /* Assets.xcassets */,
 				C7CE1A1A23045E620023ED7B /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			files = (
 				C7C89B8B2305E20A00FF8283 /* PhotoDetailViewController.swift in Sources */,
 				C7C89B892305DF2800FF8283 /* AbleTalkPhotoViewController.swift in Sources */,
-				C7C89B872305C64200FF8283 /* AbleTalkTableTableViewController.swift in Sources */,
+				C7C89B872305C64200FF8283 /* PhotoTableViewController.swift in Sources */,
 				C7CE1A1723045E600023ED7B /* Able_Talk_Project.xcdatamodeld in Sources */,
 				C7CE1A0F23045E600023ED7B /* AppDelegate.swift in Sources */,
 				C7CE1A4023045FB50023ED7B /* AbleTalkViewController.swift in Sources */,
@@ -449,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QK46F4QQ8V;
 				INFOPLIST_FILE = "Able Talk Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QK46F4QQ8V;
 				INFOPLIST_FILE = "Able Talk Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

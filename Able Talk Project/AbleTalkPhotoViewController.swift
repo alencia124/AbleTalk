@@ -16,8 +16,9 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         imagePicker.delegate = self
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func saveButton(_ sender: Any) {
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
             photoToSave.caption = textField.text
             if let userImage = imageView.image {
